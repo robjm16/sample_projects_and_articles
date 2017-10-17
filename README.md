@@ -2,7 +2,7 @@
 
 
 ## Zillow Competition on Kaggle 
-This notebook (Samples/Instacart_Competition_vGF.ipynb) was developed for a Kaggle competition related to Zillow's estimates of home values.  
+This notebook (https://github.com/robjm16/Samples/blob/master/Zillow_Competition_vGF.ipynb) was developed for a Kaggle competition related to Zillow's estimates of home values.  
 
 In the first phase of the competition (submissions were due Oct 16, 2017), the aim was to predict the residual error in Zillow's home value estimates based on a subset of real estate transactions in California in 2016 and 2017.  Please note that residual errors -- not the home values themselves -- were being predicted.  
 
