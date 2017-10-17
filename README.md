@@ -13,7 +13,7 @@ https://www.kaggle.com/c/zillow-prize-1#description
 
 
 ## Instacart Competition on Kaggle 
-This notebook was developed for a Kaggle competition on predicting repeat product purchases on Instacart, an online grocery ordering site.
+This notebook (https://github.com/robjm16/Samples/blob/master/Instacart_Competition_vGF.ipynb) was developed for a Kaggle competition on predicting repeat product purchases on Instacart, an online grocery ordering site.
 
 The datasets included information on 3.4M orders and 49.7K unique products. The orders were further broken down into “prior”, “train” and “test” sets. The prior orders covered the five (or more, as available) most recent orders leading up to the final order in the dataset. The train set covered the final order. The test set included user IDs and a few temporal attributes for the final order (but not the ordered products, which is what we were predicting).
 
