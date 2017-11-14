@@ -1,10 +1,11 @@
 # Sample Work
 
 ## Safe Driver Identification 
-This [notebook] (https://github.com/robjm16/samples/blob/master/Zillow_Competition_vGF.ipynb) was developed for a Kaggle competition on predicting safe drivers for a Brazilian insurance company named Porto Seguro. 
+This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_GF.ipynb) was developed for a Kaggle competition on predicting safe drivers for a Brazilian insurance company named Porto Seguro. 
 
-In the * * first phase * * of the competition (submissions were due Oct 16, 2017), the aim was to predict the residual error in Zillow's home value estimates based on a subset of real estate transactions in California in 2016 and 2017.  Please note that residual errors -- not the home values themselves -- were being predicted.  
+The notebook includes extensive data exploration and preprocessing, including using predictive models to interpolate missing values. 
 
+The core predictive model used is LightGBM
 Only the datasets provided by Zillow could be used in the first round (i.e., no supplemental data could be incorporated).   A second phase, allowing for the use of outside data and aimed at building a better model for predicting actual home values, will take place in 2018.   
 
 Here is a link to the Kaggle competition, with complete details on the competition and the core datasets:                         
