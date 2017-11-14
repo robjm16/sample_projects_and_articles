@@ -1,14 +1,16 @@
 # Sample Work
 
 
+
 ## Safe Driver Identification 
 This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_GF.ipynb) was developed for a Kaggle competition on predicting safe drivers for a Brazilian insurance company named Porto Seguro. 
 
 The notebook includes extensive data exploration and preprocessing, including using predictive models to interpolate missing values. 
 
-LightGBM is the core model used.  In addition, the notebook shows model stacking and ensemble averaging approaches. 
+LightGBM is the primary model used, with significant parameter tuning.  In addition, the notebook shows model stacking and prediction averaging. 
 
 Here is the [link](https://www.kaggle.com/c/zillow-prize-1#description) to the Kaggle competition, with complete details on the competition and the core datasets.                        
+
 
 
 ## Zillow Home Value Estimates 
@@ -21,6 +23,7 @@ Only the datasets provided by Zillow could be used in the first round (i.e., no 
 Here is the [link](https://www.kaggle.com/c/zillow-prize-1#description) to the Kaggle competition, with complete details on the competition and the core datasets.                         
 
 
+
 ## Instacart Repeat Grocery Purchases  
 This [notebook](https://github.com/robjm16/samples/blob/master/Instacart_Competition_vGF.ipynb) was developed for a Kaggle competition on predicting repeat product purchases on Instacart, an online grocery ordering site.
 
@@ -31,6 +34,7 @@ I first conducted exploratory data analysis(EDA), using code posted by other Kag
 I tested a variety of classifiers and regression models, ultimately using a Random Forest classifier for my final submission.  
 
 Here is the [link](https://www.kaggle.com/c/instacart-market-basket-analysis) to details on the Instacart competition, including core datasets.                                         
+
 
 
 ## Twitter Sentiment Analysis
