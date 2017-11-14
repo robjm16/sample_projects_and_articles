@@ -5,9 +5,9 @@
 ## Safe Driver Identification 
 This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_GF.ipynb) was developed for a Kaggle competition on predicting safe drivers for a Brazilian insurance company named Porto Seguro. 
 
-The notebook includes extensive data exploration and preprocessing, including the use of various predictive models to interpolate key missing values. 
+The notebook includes extensive data exploration and preprocessing, including the use of predictive models to interpolate key missing values. 
 
-LightGBM is the primary model used, with significant parameter tuning.  In addition, the notebook shows model stacking and prediction averaging. 
+LightGBM is the primary model used, with significant parameter tuning.  In addition, the notebook shows model stacking and prediction averaging using various base models (e.g., KNN, RandomForests).  
 
 Here is the [link](https://www.kaggle.com/c/zillow-prize-1#description) to the Kaggle competition, with complete details on the competition and the core datasets.                        
 
