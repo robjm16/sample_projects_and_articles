@@ -3,7 +3,7 @@
 
 
 ## Safe Driver Identification 
-This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_GF.ipynb) was developed for a Kaggle competition on predicting safe drivers for Brazilian insurer Porto Seguro. 
+This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_vGF.ipynb) was developed for a Kaggle competition on predicting safe drivers for Brazilian insurer Porto Seguro. 
 
 The notebook includes extensive data exploration and preprocessing, including the use of predictive models to interpolate key missing values. 
 
