@@ -43,4 +43,4 @@ This [notebook](https://github.com/robjm16/samples/blob/master/Tweet_Analysis_vG
 
 
 ## Time-Series Financial Data Analysis 
-This [notebook](https://github.com/robjm16/samples/blob/master/Tweet_Analysis_vGF.ipynb) demonstrates time-series analysis of stock price information.  The analyis looks at how well a group of companies heavily focused on artifical intelligence (AI) have performed relative to other companies in the tech-heavy NASDAQ index and the S&P 500 over the past year, in daily, quarterly and annual increments. 
+This [notebook](https://github.com/robjm16/samples/blob/master/Time_Series_Financial_Data_vGF.ipynb) demonstrates time-series analysis of stock price information.  The analyis looks at how well a group of companies heavily focused on artifical intelligence (AI) performed relative to other companies in the tech-heavy NASDAQ index and the S&P 500 over the past year, in daily, quarterly and annual increments. 
