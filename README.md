@@ -1,4 +1,16 @@
-# Sample Work
+# Sample Projects
+
+
+## 2018 NCAA Nasketball Tournament Predictions
+This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_vGF.ipynb) was developed for a Kaggle competition on predicting the 2018 NCAA Men's Basketball Tournament. 
+
+Contest participants were given extensive historical team and game data and asked to predict every possible match-up among 68 teams in the annual basketball tournament. The contest combined accuracy with predicted probabilities, harshly penalizing incorrect predictions made with high confidence (using the log-loss metric).
+
+My approach included extensive data pre-processing to combine multiple files and develop numerous features.  These included dozen's of game-related statistics (e.g., winning percentage for away/neutral site games) and an end-of-season "momentum" measure, for each team as well as for their opponents.  
+
+I explored the predictive power of six classifiers (Naive Bayes, Random Forest, lightGBM, KNN, Linear Regression and Neural Network), as well as a stacked model.  In the end, the Neural Network and Linear Regression models scored the best, and I submitted predictions from both (the contest allowed two submissions).   
+
+Here is the [link](https://www.kaggle.com/c/mens-machine-learning-competition-2018) to the Kaggle competition, with complete details on the competition and the core datasets. 
 
 
 
