@@ -1,8 +1,9 @@
 # Sample Projects
 
 
+
 ## 2018 NCAA Nasketball Tournament Predictions
-This [notebook](https://github.com/robjm16/samples/blob/master/Safe_Driver_Prediction_vGF.ipynb) was developed for a Kaggle competition on predicting the 2018 NCAA Men's Basketball Tournament. 
+This [notebook](https://github.com/robjm16/samples/blob/master/NCAA_2018_vGF.ipynb) was developed for a Kaggle competition on predicting the 2018 NCAA Men's Basketball Tournament. 
 
 Contest participants were given extensive historical team and game data and asked to predict every possible match-up among 68 teams in the annual basketball tournament. The contest combined accuracy with predicted probabilities, harshly penalizing incorrect predictions made with high confidence (using the log-loss metric).
 
