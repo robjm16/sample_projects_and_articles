@@ -7,7 +7,7 @@ This [notebook](https://github.com/robjm16/samples/blob/master/NCAA_2018_vGF.ipy
 
 Contest participants were given historical team and game data and asked to predict every possible match-up among 68 teams in the annual basketball tournament. The contest was based on predicted probabilities, not simple win/loss accuracy.  It used log loss as its evaluation metric, harshly penalizing incorrect predictions made with high confidence.
 
-My approach included extensive data pre-processing to combine multiple files and develop numerous features.  These included dozen's of game-related statistics (e.g., winning percentage for away/neutral site games) and an end-of-season "momentum" measure, for each team as well as for their opponents.  
+My approach included extensive data pre-processing to combine multiple files and develop numerous features.  These included, for example, winning percentages for away/neutral site games and an end-of-season "momentum" measure, for each team as well as for their opponents.  
 
 I explored the predictive power of six classifiers (Naive Bayes, Random Forest, lightGBM, KNN, Linear Regression and Neural Network), as well as a stacked model.  The Neural Network and Linear Regression models scored highest on my validation datasets, and I submitted predictions from both (the contest allowed two submissions, using whichever scored highest), to be judged against actual results of the 2018 tournament.
 
