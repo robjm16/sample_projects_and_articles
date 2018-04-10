@@ -5,7 +5,7 @@
 ## 2018 NCAA Basketball Tournament Predictions
 This [notebook](https://github.com/robjm16/samples/blob/master/NCAA_2018_vGF.ipynb) was developed for a Kaggle competition on predicting the 2018 NCAA Men's Basketball Tournament. 
 
-Contest participants were given historical team and game data and asked to predict every possible match-up among 68 teams in the annual basketball tournament. The contest was based on predicted probabilities, not simple win/loss scores.  It used log loss as its evaluation metric, harshly penalizing incorrect predictions made with high confidence.
+Contest participants were given historical team and game data and asked to predict every possible match-up among 68 teams in the annual basketball tournament. The contest was based on predicted probabilities, not simple win/loss accuracy.  It used log loss as its evaluation metric, harshly penalizing incorrect predictions made with high confidence.
 
 My approach included extensive data pre-processing to combine multiple files and develop numerous features.  These included dozen's of game-related statistics (e.g., winning percentage for away/neutral site games) and an end-of-season "momentum" measure, for each team as well as for their opponents.  
 
