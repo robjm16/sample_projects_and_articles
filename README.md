@@ -9,7 +9,9 @@ Contest participants were given extensive historical team and game data and aske
 
 My approach included extensive data pre-processing to combine multiple files and develop numerous features.  These included dozen's of game-related statistics (e.g., winning percentage for away/neutral site games) and an end-of-season "momentum" measure, for each team as well as for their opponents.  
 
-I explored the predictive power of six classifiers (Naive Bayes, Random Forest, lightGBM, KNN, Linear Regression and Neural Network), as well as a stacked model.  In the end, the Neural Network and Linear Regression models scored the best, and I submitted predictions from both (the contest allowed two submissions).   
+I explored the predictive power of six classifiers (Naive Bayes, Random Forest, lightGBM, KNN, Linear Regression and Neural Network), as well as a stacked model.  The Neural Network and Linear Regression models scored the best on my validation datasets, and I submitted predictions from both (the contest allowed two submissions), to be judged against actual results of the 2018 tournament.
+
+In the end, my predictions ranked in the top 5% of all submissions. 
 
 Here is the [link](https://www.kaggle.com/c/mens-machine-learning-competition-2018) to the Kaggle competition, with complete details on the competition and the core datasets. 
 
