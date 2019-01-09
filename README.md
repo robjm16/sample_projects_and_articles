@@ -2,6 +2,18 @@
 
 
 
+## Stock Price Predictions 
+This [notebook](https://github.com/robjm16/samples/blob/master/NCAA_2018_vGF.ipynb) generates stock price predictions for a machine learning competition sponsored by Kaggle and Two Sigma, a hedge fund that leverages artificial intelligence in its trading strategies. The aim of the competition was to use financial and news data to predict how roughly 1,800 stocks would perform relative to their benchmarks 10 days out.
+
+Scoring was based on confidence values (0 to 1) assigned to each prediction multiplied by the actual returns against benchmarks.  There was also a Sharpe ratio-like component to the scoring, which provided a risk-adjusted final score.  
+
+I generated dozens of features based largely on moving and exponential moving averages of financial data and news sentiment.  In the end, I used a neural network that correctly predicted the direction of 10-day-out returns about 53% of the time, not bad given the notoriously difficult task of stock price prediction (but, as mentioned above, the actual contest scoring was based on a more complicated formula).  
+
+At the end of the first phase of the competition, based on historical data, my model ranked in the top 10% of over 2,900 teams/participants. Final standings will be based on prediction success against actual stock returns in early 2019.
+Complete information about the contest can be found [here](https://www.kaggle.com/c/two-sigma-financial-news).
+
+
+
 ## 2018 NCAA Basketball Tournament Predictions
 This [notebook](https://github.com/robjm16/samples/blob/master/NCAA_2018_vGF.ipynb) was developed for a Kaggle/Google Cloud competition on predicting the 2018 NCAA Men's Basketball Tournament. 
 
