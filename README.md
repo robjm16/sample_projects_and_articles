@@ -3,7 +3,7 @@
 
 
 ## Stock Price Predictions 
-This [notebook](https://github.com/robjm16/samples/blob/master/NCAA_2018_vGF.ipynb) generates stock price predictions for a machine learning competition sponsored by Kaggle and Two Sigma, a hedge fund that leverages artificial intelligence in its trading strategies. The aim of the competition was to use financial and news data to predict how roughly 1,800 stocks would perform relative to their benchmarks 10 days out.
+This [notebook](https://github.com/robjm16/samples/blob/master/Stock_Predictions_Final_Github.ipynb) generates stock price predictions for a machine learning competition sponsored by Kaggle and Two Sigma, a hedge fund that leverages artificial intelligence in its trading strategies. The aim of the competition was to use financial and news data to predict how roughly 1,800 stocks would perform relative to their benchmarks 10 days out.
 
 Scoring was based on confidence values (0 to 1) assigned to each prediction multiplied by the actual returns against benchmarks.  There was also a Sharpe ratio-like component to the scoring, which provided a risk-adjusted final score.  
 
