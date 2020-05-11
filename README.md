@@ -1,7 +1,7 @@
 # Sample Projects
 
 ## Coronavirus Data Analysis and Commentary  
-This [notebook](https://www.kaggle.com/robjm16/covid-19-data-prep-and-analysis) contains extensive exploratory data analysis related to the coronavirus pandemic from a variety of sources (including Johns Hopkins University and the Centers for Disease Control).  Included are global and country-level analyses, as well as state-by-state drill downs for US data.  Also included are commentary on dealing with highly ambiguous data and an article by me entitled "Subways, Social Networks and the Coronavirus" that views New York's coronavirus situation through the lens of "small world networks" and subways as super spreaders.    
+This [notebook](https://www.kaggle.com/robjm16/covid-19-data-prep-and-analysis) contains extensive exploratory data analysis related to the coronavirus pandemic from a variety of sources (including Johns Hopkins University and the Centers for Disease Control).  Included are global and country-level analyses, as well as state-by-state drill downs for US data.  Also included are commentary on dealing with highly ambiguous data and an article by me entitled ["Subways, Social Networks and the Coronavirus"](https://github.com/robjm16/samples/blob/master/Subways%2C%20Social%20Networks%20and%20the%20Coronavirus%20-%20Robert%20McKee%20-%20Medium.pdf) that views New York's coronavirus situation through the lens of "small world networks" and subways as super spreaders.    
 
 
 ## 5-Minute ETF Stock Price Prediction  
