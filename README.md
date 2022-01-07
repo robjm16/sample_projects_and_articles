@@ -5,7 +5,7 @@ This [notebook](https://github.com/robjm16/samples/blob/master/pawpularity_final
 
 The notebook contains an exploration of the images and related meta data as well as a number of machine learning models, including basic regression, gradient-boosted decision trees, neural networks and various ensembles.
 
-Scoring of the models was based on the root mean squared error (RMSE) of predicted scores versus actual scores. In the end, a pre-trained neural network, using images but not their associated meta data, scored the highest of the models considered in this notebook.
+Scoring of the models was based on the root mean squared error (RMSE) of predicted scores versus actual scores. In the end, an ensemble of pre-trained neural networks, using images but not their associated meta data, scored the highest of the models considered in this notebook.
 
 ## Coronavirus Data Analysis and Commentary  
 This [notebook](https://www.kaggle.com/robjm16/covid-19-data-prep-and-analysis) contains extensive exploratory data analysis related to the coronavirus pandemic from a variety of sources (including Johns Hopkins University and the Centers for Disease Control).  Included are global and country-level analyses, as well as state-by-state drill downs for US data.  Also included are commentary on dealing with highly ambiguous data and an article by me entitled ["Subways, Social Networks and the Coronavirus"](https://github.com/robjm16/samples/blob/master/Subways%2C%20Social%20Networks%20and%20the%20Coronavirus%20-%20Robert%20McKee%20-%20Medium.pdf) that views New York's coronavirus situation through the lens of "small world networks" and subways as super spreaders.    
