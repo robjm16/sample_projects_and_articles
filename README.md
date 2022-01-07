@@ -1,7 +1,7 @@
 # Sample Projects
 
 ## Predicting the Appeal of Pet Photos ##
-This notebook, developed for a Kaggle competition, seeks to predict the popularity -- or "Pawpularity" -- of photos posted to an online pet rescue site. Pawpularity scores are based on viewer interest in the images, normalized for such factors as position on a web page and geographic locale. The broader aim of the Kaggle competition was to gain insight into improving the appeal of pet photos -- and to find more homes for rescue pets.
+This [notebook](https://www.kaggle.com/robjm16/covid-19-data-prep-and-analysis), developed for a Kaggle competition, seeks to predict the popularity -- or "Pawpularity" -- of photos posted to an online pet rescue site. Pawpularity scores are based on viewer interest in the images, normalized for such factors as position on a web page and geographic locale. The broader aim of the Kaggle competition was to gain insight into improving the appeal of pet photos -- and to find more homes for rescue pets.
 
 The notebook contains an exploration of the images and related meta data as well as a number of machine learning models, including basic regression, gradient-boosted decision trees, neural networks and various ensembles.
 
