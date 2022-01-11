@@ -7,6 +7,12 @@ The notebook contains an exploration of the images and related meta data as well
 
 Scoring of the models was based on the root mean squared error (RMSE) of predicted scores versus actual scores. In the end, an ensemble of pre-trained neural networks, using images but not their associated meta data, scored the highest of the models considered in this notebook.
 
+
+
+## Correlation Between Vaccination Rates and Covid Case, Hospitalization and Death Rates
+Using data from *The New York Times'* [online Covid tracking tool](https://www.nytimes.com/interactive/2021/us/covid-cases.html) from January 10, 2022, this notebook ([ipynb](), [pdf]()) takes a high-level look at correlations between vaccination rates and case, hospitalization and death rates in the 50 U.S. states and Washington, D.C.   It finds no meaningful correlation between vaccination rates and hospitalization and death rates, and a weak *positive* correlation with case rates, suggesting a higher case rate among the vaccinated.   This analysis is subject to many caveats, including that it reflects just a single point in time and that the data is not adjusted for demographics and underlying health factors.  But it is consistent with several recent studies finding little or no association between vaccination rates and Covid case, hospitalization and death rates. 
+
+
 ## Coronavirus Data Analysis and Commentary  
 This [notebook](https://www.kaggle.com/robjm16/covid-19-data-prep-and-analysis) contains extensive exploratory data analysis related to the coronavirus pandemic from a variety of sources (including Johns Hopkins University and the Centers for Disease Control).  Included are global and country-level analyses, as well as state-by-state drill downs for US data.  Also included are commentary on dealing with highly ambiguous data and an article by me entitled ["Subways, Social Networks and the Coronavirus"](https://github.com/robjm16/samples/blob/master/Subways%2C%20Social%20Networks%20and%20the%20Coronavirus%20-%20Robert%20McKee%20-%20Medium.pdf) that views New York's coronavirus situation through the lens of "small world networks" and subways as super spreaders.    
 
