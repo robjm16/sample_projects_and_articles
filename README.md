@@ -3,7 +3,7 @@
 ## Predicting the Appeal of Pet Photos ##
 This [notebook](https://github.com/robjm16/samples/blob/master/pawpularity_final_gh.ipynb), developed for a [Kaggle competition](https://www.kaggle.com/c/petfinder-pawpularity-score), seeks to predict the popularity -- or "Pawpularity" -- of photos posted to an online pet rescue site. Pawpularity scores are based on viewer interest in the images, normalized for such factors as position on a web page and geographic locale. The broader aim of the Kaggle competition was to gain insight into improving the appeal of pet photos -- and to find more homes for rescue pets.
 
-The notebook contains an exploration of the images and related meta data as well as a number of machine learning models, including basic regression, gradient-boosted decision trees, neural networks and various ensembles.
+The notebook contains an exploration of the images and related meta data as well as a number of machine learning models, including basic regression, gradient-boosted decision trees, multimodal neural networks and various ensembles.
 
 Scoring of the models was based on the root mean squared error (RMSE) of predicted scores versus actual scores. In the end, an ensemble of pre-trained neural networks, using images but not their associated meta data, scored the highest of the models considered in this notebook.
 
