@@ -1,5 +1,14 @@
 # Sample Projects
 
+## Leveraging ChatGPT for Business and Organizational Purposes ##
+Since its introduction in November 2022, ChatGPT has captivated the world by answering questions on virtually any subject in human-like fashion.  Not to mention its ability to compose poems in seconds. Or write computer code based on plain language instructions.  
+
+ChatGPT will no doubt have a huge impact on the public -- as well as on companies and other institutions.
+
+[This repository](https://github.com/robjm16/domain_specific_ChatGPT) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md), [code](https://github.com/robjm16/domain_specific_ChatGPT) for a customized ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/fine_tuned_chatgpt_git_version.ipynb) showing how to fine tune GPT-3, the model behind ChatGPT. 
+
+
+
 ## Predicting the Appeal of Pet Photos ##
 This [notebook](https://github.com/robjm16/samples/blob/master/pawpularity_final_gh.ipynb), developed for a [Kaggle competition](https://www.kaggle.com/c/petfinder-pawpularity-score), seeks to predict the popularity -- or "Pawpularity" -- of photos posted to an online pet rescue site. Pawpularity scores are based on viewer interest in the images, normalized for such factors as position on a web page and geographic locale. The broader aim of the Kaggle competition was to gain insight into improving the appeal of pet photos -- and to find more homes for rescue pets.
 
