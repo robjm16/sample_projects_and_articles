@@ -5,7 +5,7 @@ Since its introduction in November 2022, ChatGPT has captivated the world by ans
 
 ChatGPT will no doubt have a huge impact on the public -- as well as on companies and other institutions.
 
-[This repository](https://github.com/robjm16/domain_specific_ChatGPT) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md), [code](https://github.com/robjm16/domain_specific_ChatGPT) for a customized ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/fine_tuned_chatgpt_git_version.ipynb) showing how to fine tune GPT-3, the model behind ChatGPT. 
+[This repository](https://github.com/robjm16/domain_specific_ChatGPT) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT). 
 
 
 
