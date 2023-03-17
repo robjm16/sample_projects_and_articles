@@ -2,7 +2,7 @@
 
 ## Voice-Enabled Therapist Chatbot
 
-This [program]() uses OpenAI's "gpt-3.5-turbo" natural language processing model (which powers ChatGPT) as well as Google's Text-to-Speech (gTTS) library to create a simple therapist chatbot that interacts with the user via voice input and output.  The full conversation history is also displayed as text.
+This [program](https://github.com/robjm16/samples/blob/master/audio_chat__gbt_35_git.ipynb) uses OpenAI's "gpt-3.5-turbo" natural language processing model (which powers ChatGPT) as well as Google's Text-to-Speech (gTTS) library to create a simple therapist chatbot that interacts with the user via voice input and output.  The full conversation history is also displayed as text.
 
 
 ## Leveraging ChatGPT for Business and Organizational Purposes ##
