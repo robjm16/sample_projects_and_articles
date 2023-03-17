@@ -1,5 +1,10 @@
 # Sample Projects
 
+## Voice-Enabled Therapist Chatbot
+
+This [program]() uses OpenAI's "gpt-3.5-turbo" natural language processing model (which powers ChatGPT) as well as Google's Text-to-Speech (gTTS) library to create a simple therapist chatbot that interacts with the user via voice input and output.  The full conversation history is also displayed as text.
+
+
 ## Leveraging ChatGPT for Business and Organizational Purposes ##
 Since its introduction in November 2022, ChatGPT has captivated the world by answering questions on virtually any subject in human-like fashion.  Not to mention its ability to compose poems in seconds. Or write computer code based on plain language instructions.  
 
