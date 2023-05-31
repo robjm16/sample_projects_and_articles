@@ -2,7 +2,8 @@
 
 ## Retrieval-Based Chatbot with Vector Database  
 
-This [article]()**UPDATE** covers the central role vector databases play in scaling domain-specific chatbots.  Such chatbots allow companies to leverage ChatGPT's extraordinary natural language capabilities while limiting its answers to company-specific documents and information, through a process known as retrieval-based augmentation. The article is based on this [Jupyter notebook]()**UPDATE** .
+This [article]()**UPDATE** covers the central role vector databases play in scaling domain-specific chatbots (see earlier examples of such chatbots below).  With these  chatbots, companies can leverage ChatGPT's extraordinary natural language capabilities while limiting its answers to company-specific documents and information. Tailoring ChatGPT is achieved via an approach called retrieval-based augmentation. My article covers this approach and includes code snippets from a related end-to-end [Jupyter notebook]()**UPDATE**.  The notebook covers integration with Pinecone, a cloud-based vector database provider. 
+
 
 ## Voice-Enabled Therapist Chatbot
 
