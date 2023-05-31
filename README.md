@@ -1,5 +1,9 @@
 # Sample Projects
 
+## Retrieval-Based Chatbot with Vector Database  
+
+This [article]()**UPDATE** covers the central role vector databases play in scaling domain-specific chatbots.  Such chatbots allow companies to leverage ChatGPT's extraordinary natural language capabilities while limiting its answers to company-specific documents and information, through a process known as retrieval-based augmentation. The article is based on this [Jupyter notebook]()**UPDATE** .
+
 ## Voice-Enabled Therapist Chatbot
 
 This [program](https://github.com/robjm16/samples/blob/master/audio_chat__gbt_35_git.ipynb) uses OpenAI's "gpt-3.5-turbo" natural language processing model (which powers ChatGPT) as well as Google's Text-to-Speech (gTTS) library to create a simple therapist chatbot that interacts with the user via voice input and output.  The full conversation history is also displayed as text.
