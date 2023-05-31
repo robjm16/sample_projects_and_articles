@@ -297,7 +297,7 @@ def construct_prompt(question, df):
 
 Here is how the interface looks:  
 
-![Chatbot Interface](../../../../VScode/Interface_pic.JPG)
+![Chatbot Interface](https://github.com/robjm16/samples/blob/master/Interface_pic.JPG)
 
 
 ### 7. CONCLUSION 
