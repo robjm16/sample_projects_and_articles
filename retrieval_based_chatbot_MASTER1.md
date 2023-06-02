@@ -1,8 +1,8 @@
 ## Scaling Retrieval-Based Chatbots with Vector Databases
 #### 1. Introduction
-A growing number of companies across industries have announced plans to customize ChatGPT to their business needs. Their goal is to leverage ChatGPT's extraordinary natural language capabilities while focusing its power on company-specific documents and information. An insurance company, for example, might want to give service reps the ability to find answers to customer questions via ChatGPT -- but drawing information exclusively from official policy documents. 
+A growing number of companies across industries have announced plans to customize ChatGPT for their business needs. The goal is to leverage ChatGPT's extraordinary natural language capabilities while focusing its power on company-specific documents and information. An insurance company, for example, might want to give service reps the ability to find answers to customer questions via ChatGPT -- but drawing information exclusively from official policy documents. 
 
-Tailoring ChatGPT for such domain-specific applications is achieved via an approach called retrieval-based augmentation. With this method, when a query is posed, relevant content from the company's knowledge base is sourced and appended to the chatbot prompt as context. Following this, the chatbot is tasked with crafting a response based on the given context. 
+Tailoring ChatGPT for such domain-specific applications can be achieved using an approach called retrieval-based augmentation. With this method, when a query is posed, relevant content from the company's knowledge base is sourced and appended to the chatbot's input prompt as context. Following this, the chatbot is tasked with crafting a response based on the given context. 
 
 (Another approach is to retrain a bespoke version of ChatGPT on your organization's knowledge base. However, retraining brings substantial costs and risks, and lacks the precision offered by retrieval-based augmentation. Nevertheless, retrieval-based augmentation and retraining can be seen as complementary processes.)
 
