@@ -4,9 +4,9 @@ A growing number of companies across industries have announced plans to customiz
 
 Tailoring ChatGPT for such domain-specific applications can be achieved using an approach called retrieval-based augmentation. With this method, when a query is posed, relevant content from the company's knowledge base is sourced and appended to the chatbot's input prompt as context. Following this, the chatbot is tasked with crafting a response based on the given context. 
 
-(Another approach is to retrain a bespoke version of ChatGPT on an organization's knowledge base. However, retraining brings substantial costs and risks, and lacks the precision offered by retrieval-based augmentation. Nevertheless, retrieval-based augmentation and retraining can be seen as complementary processes.)
-
 This article focuses on the central role of word vectors and vector databases in the retrieval-based approach. It includes sample code for integrating a vector database with a retrieval-based model. The complete program can be found [here]() **UPDATE**.  
+
+(Another approach is to retrain a bespoke version of ChatGPT on an organization's knowledge base. However, retraining brings substantial costs and risks, and lacks the precision offered by retrieval-based augmentation. Nevertheless, retrieval-based augmentation and retraining can be seen as complementary processes.)
 
 #### 2. Word Vectors
 Large language models like ChatGPT use word vectors (or "embeddings") word vectors (also known as "embeddings") to interpret queries and generate responses. Word vectors provide a numerical depiction of words or phrases. For example, the word "queen" could be expressed through a sequence of numbers that illustrate its semantic proximity to words like "king," "female," and "leader." A single word vector may encompass thousands of dimensions, encapsulating context and syntax.
