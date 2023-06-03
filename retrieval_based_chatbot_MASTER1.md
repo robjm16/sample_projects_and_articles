@@ -56,7 +56,7 @@ Following this, I created and connected to a Pinecone index -- where vectors for
 pinecone.create_index(name="docembeddings", dimension=1536, metric="cosine", shards=1)
 ~~~
 
-Next, I associated the connection with the variable **'pinecone_client'**. This variable now serves as my primary point of interaction with the Pinecone index. 
+Next, I associated the connection with the variable **'pinecone_client'**. This variable will now serve as my primary point of interaction with the Pinecone index. 
 
 ~~~python
 # Connect to Pinecone service
