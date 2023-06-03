@@ -167,7 +167,7 @@ def fetch_embeddings_from_pinecone(df, pinecone_client):
 ### 4.  Question/Answering via OpenAI, Pinecone and Gradio 
 
 #### Initializing the Interface
-Having pre-processed the text, created a Pinecone index, and computed and loaded the document's embeddings on a paragraph-by-paragraph basis into our vector database, we now move onto the final piece of code.  This snippet launches the interface and invokes the **'answer_query_with_context()'** function.
+Having pre-processed the text, created a Pinecone index, and computed and loaded the document's embeddings on a paragraph-by-paragraph basis into our vector database, we now move onto the final piece of code.  This snippet launches the interface and invokes the **'answer_query_with_context()'** function (described further below).
 
 ~~~python
 #Launch interface
