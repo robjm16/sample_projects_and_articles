@@ -1,4 +1,4 @@
-## Scaling Retrieval-Based Chatbots with Vector Databases
+## Scaling Company Chatbots with Vector Databases
 #### 1. Introduction
 A growing number of companies across industries have announced plans to customize ChatGPT for their business needs. The goal is to leverage ChatGPT's extraordinary natural language capabilities while focusing its power on company-specific documents and information. An insurance company, for example, might want to give service reps the ability to find answers to customer questions via ChatGPT -- but drawing information exclusively from official policy documents. 
 
