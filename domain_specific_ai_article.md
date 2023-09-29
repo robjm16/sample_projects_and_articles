@@ -1,4 +1,4 @@
-Domain-Specific AI: Untangling the Options
+# Domain-Specific AI: Untangling the Options
 
 For many companies, the value of ChatGPT and similar AI models depends on how well they "learn" domain-specific information.  Accounting firms, for example, need AI systems to answer complex tax-related questions with high precision.  But while base AI models provide impressive general language capabilities, they need some level of customization to deliver the domain-specific results most companies require.
 There are several ways you can work with ChatGPT and similar large language models (LLMs) to achieve domain- or task-specific goals.
