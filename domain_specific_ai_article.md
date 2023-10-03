@@ -12,7 +12,7 @@ These are basic starting points. They can sharpen results, but only to a degree.
 
 At the other end of the customization continuum is:  
 
-- **Pre-training**: Foundational stage where an LLM is trained from scratch on a vast body of text, to grasp semantics, syntax and knowledge. Building an LLM from scratch requires significant computational resources, extensive data, skilled experts, months of work and an investment of millions to tens of millions of dollars. 
+- **Pre-training**: Foundational stage where an LLM is trained from scratch on a vast body of text, to grasp semantics, syntax and knowledge. Building an LLM from scratch requires significant computational resources, extensive data, skilled experts, months of work and an investment of millions to tens of millions of dollars. (As the performance of smaller LLMs improves, more companies might opt for them, potentially reducing pre-training costs.)
 
 ChatGPT is a general purpose LLM, but an LLM can also be pre-trained on domain-specific information.  An example is BloombergGPT, which was trained extensively on financial information. But for most companies today, domain-specific customization comes down to two approaches that stop short of full pre-training:  
 
@@ -34,14 +34,14 @@ Below are key considerations when implementing RAG and fine-tuning. An important
 Regardless of which methods you choose, you will ultimately need to decide on a foundational model and when in the cycle to adopt.  You will also need to think through how to maintain large, domain-specific bodies of content, training data, model performance histories and prompt templates.  Thankfully, developer tools are emerging (e.g., LangChain) that simplify the process of RAG and fine-tuning.  
 
 ## Broader considerations
-Decisions around domain-specific AI cannot take place in a vacuum.  Among the broader considerations:
-Overall AI strategy:  Where are the biggest opportunities (e.g., what business areas, functions, tasks)?   Costs vs benefits?  How to start (e.g., demos, pilots, green fields?) I
-Security/privacy/compliance/ethics:  How to ensure AI efforts are consistent with your standards?  How to prevent data leakage? Inappropriate responses?
-Vendor strategy/ecosystem/lock:  Who are the likely winners?  How much to consolidate, where and with whom?  Firewall issues?   Inhouse vs. outsourced?
-Integration: How do potential AI technologies integrate with our other technologies?
-Scalability:  How well will any solutions scale to our company – now and in future?
-Technology maturity:  When is the right time to lock in different technologies, given rapid evolution?
-Skill availability: Do we have the right technical skills?
-Change management:  What will be the impact on people, jobs and processes?  How do we get there? Leaders, stakeholders, etc.?
+Decisions around domain-specific AI cannot take place in a vacuum.  Among the broader considerations:  
+- **Overall AI strategy**:  Where are the biggest opportunities (e.g., what business areas, functions, tasks)?   Costs vs benefits?  How to start (e.g., pilots, prototypes)
+- **Security/privacy/compliance/ethics**:  How to ensure AI efforts are consistent with your standards?  How to prevent data leakage? Inappropriate responses?
+- **Vendor strategy/ecosystem/lock**:  Who are the likely winners?  How much to consolidate, where and with whom?  Firewall issues?   In-house vs. cloud?
+- **Integration**: How do potential AI technologies integrate with our other technologies?
+- **Scalability**:  How well will any solutions scale to our company – now and in future?
+- **Technology maturity**:  When is the right time to lock in different technologies, given rapid evolution?
+- **Skill availability**: Do we have the right technical skills?
+- **Change management**:  What will be the impact on people, jobs and processes?  How do we get there? Leaders, stakeholders, etc.?
 
 Getting the right domain-specific AI strategy is essential – and tricky.  The opportunities are huge, but so are the unknowns.  In any case, the right strategy must be a blend of deep AI-specific thinking and a broader view of your organization's IT and business strategies.
