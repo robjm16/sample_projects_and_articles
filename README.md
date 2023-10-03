@@ -15,7 +15,7 @@ Since its introduction in November 2022, ChatGPT has captivated the world by ans
 
 ChatGPT will no doubt have a huge impact on the public -- as well as on companies and other institutions.
 
-[This repository](https://github.com/robjm16/domain_specific_ChatGPT) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT). Another [article](https://github.com/robjm16/samples/blob/master/domain_specific_ai_article.md) discusses the pros and cons of using fine-tuning vs retrieval-augmented generation (RAG) when building a domain-specific system.  
+[This repository](https://github.com/robjm16/domain_specific_ChatGPT) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT). Another [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/fine_tune_vs_RAG.md) discusses the pros and cons of using fine-tuning vs retrieval-augmented generation (RAG) when building a domain-specific system.  
 
 
 
