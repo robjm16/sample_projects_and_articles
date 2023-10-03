@@ -44,9 +44,14 @@ To use ChatGPT via OpenAI's API, you will need to sign up and request an API key
 
 
 ```python
-def hello_world():
-    print("Hello, world!")
+# Set an environmental variable for OpenAI key 
+os.environ['OPENAI_API_KEY'] = 'your-api-key-here'
 ```
+
+
+### Functions  
+
+Our first function (*def build_prompt*) constructs the prompt.  It places each use case description (e.g., "Fraud detection") it into a series of three questions about which algorithms might be helpful and how.  Each question is carefully delineated and provides specific guidance on what output is expected.  
 ```python
 def hello_world():
     print("Hello, world!")
