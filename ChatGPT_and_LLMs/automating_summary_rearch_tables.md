@@ -204,7 +204,7 @@ Lastly, our main program brings everything together.  It starts by reading our  
 ```python
 # Run main program and assign output to dataframe for possible additional review/manipulation in Python; save dataframe to pkl and xlsx files
 if __name__ == "__main__":
-    file_path = '/content/drive/MyDrive/Colab Notebooks/Data/master_compendium_scrape_shell.xlsx'
+    file_path = 'master_compendium_scrape_shell.xlsx'  # Edit filepath as needed
     df = pd.read_excel(file_path)
     print(df.head())
     df = process_data(df)
