@@ -211,7 +211,7 @@ if __name__ == "__main__":
     df.to_pickle("research_data.pkl") # For dataframe re-use 
     df.to_excel("research_data.xlsx", index=False)
 ```
-Here is how the completed datframe looks.  Further manipulation can be done either in Python or Excel. 
+Here is how the completed dataframe looks.  Further manipulation can be done either in Python or Excel. 
 
 
 ![image](https://github.com/robjm16/samples/assets/25880808/c331c8f7-0207-4784-8cb9-4eca28431e68)
