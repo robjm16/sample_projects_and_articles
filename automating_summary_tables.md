@@ -6,13 +6,13 @@ When it comes to conducting research,  ChatGPT can be an incredible force multip
 
 Just type in a question and ChatGPT returns hundreds of words that you can quickly copy, paste into a word processing tool and tailor to your needs.  
 
-Great. But what about a research effort seeking concise, high-level answers for a long list of items? The type of research that usually is communicated via  summary research tables?
+That's great. But what about a research effort seeking concise, high-level answers for a long list of items? The type of research that usually is communicated via summary research tables?
 
-With such research, copy and paste would be incredibly tedious and time consuming.  
+For this type of broad research scan, copy and paste would be incredibly tedious and time consuming.  
 
 Fortunately, you can use a combination of ChatGPT, Python and Excel to automate the process. 
 
-This article walks through a Jupyter notebook showing how a Python program might work on a demo research project.
+This article walks through a [Jupyter notebook]() showing how a Python program might work on a demo research project.
 
 ###  Choosing Between Manual and Automated
 
