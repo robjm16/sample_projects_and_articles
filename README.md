@@ -1,13 +1,13 @@
-# Sample Projects
+# Sample Projects and Articles
 
 ## Scaling Company Chatbots with Vector Databases  
 
-This [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/retrieval_based_chatbot_article.md) discusses the role of vector databases in domain-specific chatbots.  Companies can use such chatbots to leverage ChatGPT's extraordinary natural language capabilities while limiting answers to selected documents and information. This specificity is achieved using an approach called retrieval-based augmentation. The article covers integration with Pinecone, a cloud-based vector database provider.  It includes code excerpted from a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/retrieval_augmented_chatbot_w_vectordb_FINAL_3_git_version.ipynb).  See the next two items below for other examples of customized chatbots (without vector database integration).  
+This [article](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/retrieval_based_chatbot_article.md) discusses the role of vector databases in domain-specific chatbots.  Companies can use such chatbots to leverage ChatGPT's extraordinary natural language capabilities while limiting answers to selected documents and information. This specificity is achieved using an approach called retrieval-based augmentation. The article covers integration with Pinecone, a cloud-based vector database provider.  It includes code excerpted from a [Jupyter notebook](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/retrieval_augmented_chatbot_w_vectordb_FINAL_3_git_version.ipynb).  See the next two items below for other examples of customized chatbots (without vector database integration).  
 
 
 ## Voice-Enabled Therapist Chatbot
 
-This [program](https://github.com/robjm16/samples/blob/master/audio_chat__gbt_35_git.ipynb) uses OpenAI's "gpt-3.5-turbo" natural language processing model (which powers ChatGPT) as well as Google's Text-to-Speech (gTTS) library to create a simple therapist chatbot that interacts with the user via voice input and output.  The full conversation history is also displayed as text.
+This [program](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/audio_chat__gbt_35_git%20(1).ipynb) uses OpenAI's "gpt-3.5-turbo" natural language processing model (which powers ChatGPT) as well as Google's Text-to-Speech (gTTS) library to create a simple therapist chatbot that interacts with the user via voice input and output.  The full conversation history is also displayed as text.
 
 
 ## Leveraging ChatGPT for Business and Organizational Purposes ##
@@ -15,7 +15,7 @@ Since its introduction in November 2022, ChatGPT has captivated the world by ans
 
 ChatGPT will no doubt have a huge impact on the public -- as well as on companies and other institutions.
 
-[This repository](https://github.com/robjm16/domain_specific_ChatGPT) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT). Another [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/fine_tune_vs_RAG.md) discusses the pros and cons of using fine-tuning vs retrieval-augmented generation (RAG) when building a domain-specific system.  
+[This repository](https://github.com/robjm16/sample_projects_and_articles/tree/master/ChatGPT_and_LLMs) includes an overview [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based [chatbot](https://huggingface.co/spaces/robjm16/domain_specific_ChatGPT). Another [article](https://github.com/robjm16/domain_specific_ChatGPT/blob/main/fine_tune_vs_RAG.md) discusses the pros and cons of using fine-tuning vs retrieval-augmented generation (RAG) when building a domain-specific system.  
 
 
 
