@@ -23,18 +23,25 @@ But in addition to identifying use cases, I wanted to expand my table to include
 The code below automates this process. Note that the code could be modified to automate the first two tasks above (identifying categories and use cases) in a similar way.  The choice of where to draw the line between manual and automated provcesses will depend on your own needs and circumstances.  
 
 ### Getting started
-
+First, we install necessary libraries and import them into our environment.
 
 ```python
 ! pip install openai
 ! pip install requests
 ```
-
-
 ```python
-def hello_world():
-    print("Hello, world!")
+import os
+import openai
+import requests
+import pandas as pd
 ```
+To use ChatGPT via OpenAI's API, you will need to sign up and request an API key. (OpenAI is the company behind ChatGPT.)
+
+*   Go to OpenAI's Platform website at [platform.openai.com](https://) and select "Sign up" in the top-right corner.
+*  Once you have an account, click your profile icon at the top-right corner of the page and select "View API Keys."  
+*   Clck "Create New Secret Key" to generate a new API key.
+*   Save the API key.
+
 
 ```python
 def hello_world():
