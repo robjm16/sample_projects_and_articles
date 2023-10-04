@@ -17,7 +17,7 @@ I could have automated this initial process by asking ChatGPT to provide a list 
 
 But in addition to identifying use cases, I wanted to expand my table to include examples of which machine learning algorithms (e.g., logistic regression, decision trees) best support each use case. In particular, with the emergence of large language models (LLMs), I wanted to ask how they might be applied to each use case.
 
-The code below automates this part of the process. Of course, the choice of where to draw the line between manual and automated processes will depend on your own needs and circumstances.
+The code below (notebook [here](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/scrape_use_cases_w_chatGPT_git%20(1).ipynb)) automates this part of the process. Of course, the choice of where to draw the line between manual and automated processes will depend on your own needs and circumstances.
 
 ### Getting started
 First, we install necessary libraries and import them into our environment.
