@@ -1,28 +1,23 @@
-## DRAFT: Automating Summary Research Tables with ChatGPT and Python
+## Automating Summary Research Tables with ChatGPT and Python
 
 ![image](https://github.com/robjm16/samples/assets/25880808/c331c8f7-0207-4784-8cb9-4eca28431e68)
 
-When it comes to conducting research,  ChatGPT can be an incredible force multiplier. 
+When it comes to research efforts, ChatGPT can be an incredible force multiplier. Just type in a question and ChatGPT returns hundreds of words that you can quickly copy, paste into a word processing tool and tailor to your needs.
 
-Just type in a question and ChatGPT returns hundreds of words that you can quickly copy, paste into a word processing tool and tailor to your needs.  
+That's great. But what about a research project seeking concise, high-level answers across a long list of items? The type of research that is usually communicated via summary research tables.
 
-That's great. But what about a research effort seeking concise, high-level answers for a long list of items? The type of research that usually is communicated via summary research tables?
+Here, copy-and-paste would be incredibly tedious and time consuming.
 
-For this type of broad research scan, copy and paste would be incredibly tedious and time consuming.  
+Fortunately, you can use a combination of ChatGPT, Python and Excel to automate the process. This notebook show how it might be done.
 
-Fortunately, you can use a combination of ChatGPT, Python and Excel to automate the process. 
+Manual and Automated Processes
+My project starts with a list of business and organizational use cases for AI and machine learning algorithms that I have maintained for some time, using a simple Excel spreadsheet. The list is broken into functional areas (e.g., Marketing, HR, Legal) and industries (e.g., Agriculture, Healthcare, High-Tech).
 
-This article walks through a [Jupyter notebook]() showing how a Python program might work on a demo research project.
+I could have automated this initial process by asking ChatGPT to provide a list of a dozen or so functional areas and industries, and then requesting use cases for each category. But since I already had curated information, I simply asked ChatGPT to suggest any changes. I agreed with some of the edits, and manually made them to the spreadsheet.
 
-###  Choosing Between Manual and Automated
+But in addition to identifying use cases, I wanted to expand my table to include examples of which machine learning algorithms (e.g., logistic regression, decision trees) best support each use case. In particular, with the emergence of large language models (LLMs), I wanted to ask how they might be applied to each use case.
 
-This project starts with a list of business and organizational use cases for AI and machine learning algorithms that I have been curating for some time, using  a simple spreadsheet. The list is broken into functional areas (e.g., Marketing, HR, Legal) and industries (e.g., Agriculture, Automotive, High-Tech). 
-
-I could have automated the process, by asking ChatGPT to provide a list of a dozen or so functional areas and industries, and then requesting use cases for each category. But since I already had that information, I simply asked ChatGPT to suggest any changes.  I agreed with some of the edits, and manually made them in the spreadsheet.  
-
-But in addition to identifying use cases, I wanted to expand my table to include examples of which machine learning algorithms (e.g., logistic regression, decision trees) best support each use case.  In particular, with  the emergence of large language models (LLMs), I wanted to ask how they might be applied to each use case. 
-
-The code below automates this process. Note that the code could be modified to automate the first two tasks above (identifying categories and use cases) in a similar way.  The choice of where to draw the line between manual and automated provcesses will depend on your own needs and circumstances.  
+The code below automates this part of the process. Of course, the choice of where to draw the line between manual and automated processes will depend on your own needs and circumstances.
 
 ### Getting started
 First, we install necessary libraries and import them into our environment.
@@ -41,7 +36,7 @@ To use ChatGPT via OpenAI's API, you will need to sign up and request an API key
 
 *   Go to OpenAI's Platform website at [platform.openai.com](https://) and select "Sign up" in the top-right corner.
 *  Once you have an account, click your profile icon at the top-right corner of the page and select "View API Keys."  
-*   Clck "Create New Secret Key" to generate a new API key.
+*   Click "Create New Secret Key" to generate a new API key.
 *   Save the API key.
 
 
@@ -53,7 +48,7 @@ os.environ['OPENAI_API_KEY'] = 'your-api-key-here'
 
 ### Functions  
 
-Our first function (*def build_prompt*) constructs the prompt.  It places each use case description (e.g., "Fraud detection") it into a series of three questions about which algorithms might be helpful and how.  Each question is carefully delineated and provides specific guidance on what output is expected.  
+Our first function (*def build_prompt*) constructs the prompt. It feeds  each use case description (e.g., "Fraud detection") into a series of three questions about supporting algorithms. Each question is carefully delineated and provides specific guidance on what output is expected.  
 
 ```python
 def build_prompt(use_case):
@@ -69,7 +64,7 @@ def build_prompt(use_case):
     prompt = f"""
     A. Can Large Language Models (LLMs) be used for {use_case}? Answer Yes or No.
     B. If yes, how can LLMs be utilized for {use_case}? Answer in 15 words or less. If No, say NA.
-    C. What other machine learning algorithms could be suitable for {use_case}? Name 1-3 algorithms and very briefly expain each (10 words each maximum).
+    C. What other machine learning algorithms could be suitable for {use_case}? Name 1-3 algorithms and very briefly explain each (10 words each maximum).
     ---
     """
     return prompt
@@ -81,13 +76,13 @@ A. Can Large Language Models (LLMs) be used for Fraud detection? Answer Yes or N
 
 B. If yes, how can LLMs be utilized for Fraud detection? Answer in 15 words or less. If No, say NA.
 
-C. What other machine learning algorithms could be suitable for Fraud detection? Name 1-3 algorithms and very briefly expain each (10 words each maximum).  
+C. What other machine learning algorithms could be suitable for Fraud detection? Name 1-3 algorithms and very briefly explain each (10 words each maximum).  
 ```
-The function *get_openai_data* takes a given prompt and forwards it to the OpenAI API for a response.
+The function *get_openai_data* (see below) takes a given prompt and forwards it to the OpenAI API for a response.  
 
-We've set a token limit of 200 to ensure concise replies, typically around 30-40 words. Keep in mind that the token count can exceed the word count since words are often tokenized into word fragments. Additionally, we set the temperature to 0.2 to promote deterministic answers, meaning there's minimal variation or creativity in the responses (1.0 represents maximum creativity).
+We've set a token limit of 200 to ensure concise replies (which will typically yield around 30–40 words). Keep in mind that the token count exceeds the word count since words are usually tokenized by word fragments. Additionally, we set the temperature to 0.2 to promote deterministic answers, meaning there's minimal variation or creativity in the responses (1.0 represents maximum creativity).  
 
-Also note that the results are parsed to align with our three questions.  Typically, but not always, ChatGPT adds a newline character (\n) to the end of each question in a series, if they are clearly delineated.  That was our reason for constructing the prompt into three distinct questions.  
+Also note that the results are parsed to align with our three questions. Typically, but not always, ChatGPT adds a newline character (\n) to the end of each question in a series, if they are clearly delineated. That was our reason for constructing the prompt with three distinct questions. 
 
 
 ```python
@@ -124,7 +119,7 @@ def get_openai_data(prompt):
         engine="text-davinci-003",
         prompt=prompt,
         max_tokens=200,  # Adjust the max tokens to accommodate all three answers
-        temperature = 0.2 # Adjust temperatire to make output more focused and deterministic (by dialing lower)
+        temperature = 0.2 # Adjust temperature to make output more focused and deterministic (by dialing lower)
     )
     # Assume that the responses are separated by newlines, adjust if necessary
     response_data = response.choices[0].text.strip().split('\n') if response.choices else ['', '', '']
@@ -141,11 +136,9 @@ The response is delivered back from ChatGPT as a dictionary. Here is an example:
 'Other ML algorithms?': 'C. 1. Random Forest: Uses decision trees to identify patterns.
  2. Support Vector Machines: Uses hyperplanes to classify data. 3. Neural Networks: Uses layers of neurons to detect patterns.'}
 ```
+The next function (*process_data*) takes our use cases in groups of ten, constructs the prompts, gets the ChatGPT responses and places them in the appropriate columns of the dataframe.   
 
-The next function (*process_data*) takes our use cases in groups of ten, constructs the prompts, get the ChatGPT responses and places them in the appropriate columns of the dataframe.   
-
-The following function (*clean_dataframe*) removes our "ABC" question ordering convention, which is no longer needed for delineation, as the text is now broken into three columns of the dataframe.  The clean-up function also removes any extra white space at the beginning or end of each response.  Other clean-up instructions, depending on needs, could be added here.
-
+The following function (*clean_dataframe*) removes our "A-B-C" question ordering convention, which is no longer needed for delineation, as the text is now parsed out into three columns of the dataframe. The clean-up function also removes any extra white space at the beginning or end of each response. Other clean-up instructions, depending on your needs, could be added here.
 
 ```python
 def process_data(df):
@@ -199,7 +192,7 @@ def clean_dataframe(df):
 
 ### Main Program and Output 
 
-Lastly, our main program brings everything together.  It starts by reading our  original spreadsheet (i.e., not including ChatGPT responses) into a dataframe.  It then calls the *process_data* function, which launches the end-to-end process from prompt creation to dataframe insertion.  It also creates a new, updated Excel spreadsheet from the dataframe, for further editing and manipulation. 
+Lastly, our main program brings everything together. It starts by reading our original spreadsheet (i.e., just the use cases and whether they refer to functions or industries) into a dataframe. It then calls the process_data function, which launches the end-to-end process from prompt creation to dataframe insertion. It also creates a new, updated Excel spreadsheet from the dataframe, for further hands-on editing and manipulation.
 
 ```python
 # Run main program and assign output to dataframe for possible additional review/manipulation in Python; save dataframe to pkl and xlsx files
@@ -213,13 +206,11 @@ if __name__ == "__main__":
 ```
 Here is how the completed dataframe looks.  Further manipulation can be done either in Python or Excel. 
 
-
 ![image](https://github.com/robjm16/samples/assets/25880808/c331c8f7-0207-4784-8cb9-4eca28431e68)
 
+This demo research project covered 100+ use cases and delivered a completed spreadsheet in a few minutes. Manually cutting and pasting the information would have taken days. And developing the underlying information without ChatGPT (or other large language model) would likely have taken weeks.  
 
-This demonstration project covered 131 use cases and delivered a completed spreadsheet in a few minutes.  Manually cutting and pasting the information would have taken days. And getting the information without ChatGPT (or other large language model) would likely have taken weeks.
-
-Business and organizations often need information in summary tables that present concise, high-level findings or comparisons.  An accounting firm, for example, might want a summary of how  dozens of different jurisdictions  treat a certain tax matter.  Or an industrial company might want to compare its operational footprint against competitors around the world. While the output from automating research with ChatGPT and Python no doubt needs human validation and refinement, the process can easily save weeks or months of tedious work.   
+Businesses and organizations often produce summary tables that present concise, high-level findings or comparisons. An accounting firm, for example, might want a summary of how dozens of different jurisdictions treat a certain tax matter. Or a manufacturer might want to compare features of products in its portfolio against those of competitors around the world. While the output from automating research with ChatGPT and Python no doubt needs human validation and refinement, the process can easily save weeks or months of work.    
 
 
 
