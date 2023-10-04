@@ -1,5 +1,12 @@
 # Sample Projects and Articles
 
+## Database of AI/Machine Learning Use Cases -- Updated via ChatGPT
+
+For some time, I have been curating a simple spreadsheet of AI/machine learning use cases by business function and industry.  With the arrival of ChatGPT, I have built an automated process that uses ChatGPT to augment my table with summary information on (1) how Large Language Models (LLMs), such as ChatGPT, might be applied to each use case and (2) other algorithms that could be helpful.  
+
+- **Automated Summary Table Research**:  This [notebook](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/scrape_use_cases_w_chatGPT_git.ipynb) automates the process of researching how AI and other machine learning algorithms can support 100+ use cases.  It can be adapted for similar summary research projects.   
+- **AI/Machine Learning Use Cases**:  My most up-to-date Excel spreadsheet can be downloaded [here](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/research_data.xlsx). 
+
 ## Scaling Company Chatbots with Vector Databases  
 
 This [article](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/retrieval_based_chatbot_article.md) discusses the role of vector databases in domain-specific chatbots.  Companies can use such chatbots to leverage ChatGPT's extraordinary natural language capabilities while limiting answers to selected documents and information. This specificity is achieved using an approach called retrieval-based augmentation. The article covers integration with Pinecone, a cloud-based vector database provider.  It includes code excerpted from a [Jupyter notebook](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/retrieval_augmented_chatbot_w_vectordb_FINAL_3_git_version.ipynb).  
@@ -17,7 +24,9 @@ Since its introduction in November 2022, ChatGPT has captivated the world by ans
 
 ChatGPT will no doubt have a huge impact on the public -- as well as on companies and other institutions.
 
-[This repository](https://github.com/robjm16/sample_projects_and_articles/tree/master/ChatGPT_and_LLMs) includes an overview [article](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based [chatbot](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb). Another [article](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/fine_tune_vs_RAG.md) discusses the high-level pros and cons of using fine-tuning vs retrieval-augmented generation (RAG) when building a domain-specific system.  
+[This repository](https://github.com/robjm16/sample_projects_and_articles/tree/master/ChatGPT_and_LLMs) includes an overview [article](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/DOMAIN_SPECIFIC_CHATGPT.md) and a [Jupyter notebook](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/domain_specific_chatbot_prompt_engineering_and_fine_tuning_GITHUBFINAL.ipynb) showing code for prompt engineering and fine tuning for a domain-specific ChatGPT-based chatbot.  
+
+Another [article](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/fine_tune_vs_RAG.md) discusses the high-level pros and cons of using fine-tuning vs retrieval-augmented generation (RAG) when building a domain-specific system.  
 
 
 
