@@ -2,7 +2,7 @@
 
 ## Database of AI/Machine Learning Use Cases -- Updated via ChatGPT
 
-For some time, I have been curating a simple spreadsheet of AI/machine learning use cases by business function and industry.  With the arrival of ChatGPT, I have built an automated process that uses ChatGPT to augment my table with summary information on (1) how Large Language Models (LLMs), such as ChatGPT, might be applied to each use case and (2) other algorithms that could be helpful.  
+For some time, I have been maintaining a simple spreadsheet of AI/machine learning use cases by business function and industry.  With the arrival of ChatGPT, I have built an automated process that uses ChatGPT to augment my table with summary information on (1) how Large Language Models (LLMs), such as ChatGPT, might be applied to each use case and (2) other algorithms that could be helpful.  
 
 - **Automated Summary Table Research**:  This [notebook](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/scrape_use_cases_w_chatGPT_git.ipynb) automates the process of researching how AI and other machine learning algorithms can support 100+ use cases.  It can be adapted for similar summary research projects.   
 - **AI/Machine Learning Use Cases**:  My most up-to-date Excel spreadsheet can be downloaded [here](https://github.com/robjm16/sample_projects_and_articles/blob/master/ChatGPT_and_LLMs/research_data.xlsx). 
