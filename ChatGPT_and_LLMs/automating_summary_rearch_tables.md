@@ -80,7 +80,7 @@ C. What other machine learning algorithms could be suitable for Fraud detection?
 ```
 The function *get_openai_data* (see below) takes a given prompt and forwards it to the OpenAI API for a response.  
 
-We've set a token limit of 200 to ensure concise replies (which will typically yield around 30–40 words). Keep in mind that the token count exceeds the word count since words are usually tokenized by word fragments. Additionally, we set the temperature to 0.2 to promote deterministic answers, meaning there's minimal variation or creativity in the responses (1.0 represents maximum creativity).  
+We set the temperature to 0.2 to promote deterministic answers, meaning there's minimal variation or creativity in the responses (1.0 represents maximum creativity).  
 
 Also note that the results are parsed to align with our three questions. Typically, but not always, ChatGPT adds a newline character (\n) to the end of each question in a series, if they are clearly delineated. That was our reason for constructing the prompt with three distinct questions. 
 
